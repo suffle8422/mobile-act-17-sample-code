@@ -183,7 +183,7 @@
 </code></pre>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="19" data-paginate="true" data-theme="base-theme" lang="en-US" data-marpit-pagination="18" style="--paginate:true;--theme:base-theme;" data-marpit-pagination-total="24">
-<h1 id="todoentity">TodoEntity</h1>
+<h1 id="entity">Entity</h1>
 <ul>
 <li>Sendable, Codable, Identifiable, Hashableに準拠した構造体</li>
 <li>SwiftDataのModelごとに対応したEntityを作成する</li>
@@ -199,7 +199,7 @@
 </code></pre>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="20" data-paginate="true" data-theme="base-theme" lang="en-US" data-marpit-pagination="19" style="--paginate:true;--theme:base-theme;" data-marpit-pagination-total="24">
-<h1 id="todorepository">TodoRepository</h1>
+<h1 id="repository">Repository</h1>
 <ul>
 <li>SwiftDataClientを使って、各ModelのCRUD処理を実装する</li>
 <li>Entityの具体的なプロパティを参照する処理があれば、ここで処理</li>
@@ -214,9 +214,9 @@
 </code></pre>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="21" data-paginate="true" data-theme="base-theme" lang="en-US" data-marpit-pagination="20" style="--paginate:true;--theme:base-theme;" data-marpit-pagination-total="24">
-<h1 id="todostore">TodoStore</h1>
+<h1 id="store">Store</h1>
 <ul>
-<li>Observableなクラスとして実装し、SwiftDataから読み出した永続化データの公開を責務とする</li>
+<li>Observableなクラスとして実装し、SSOTとして読み出した永続化データの公開を責務とする</li>
 </ul>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-Swift"><span class="hljs-meta">@MainActor</span> <span class="hljs-meta">@Observable</span>
 <span class="hljs-keyword">final</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">TodoStore</span>: <span class="hljs-title class_ inherited__">TodoStoreProtocol</span> {
