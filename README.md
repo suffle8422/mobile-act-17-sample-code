@@ -3,6 +3,8 @@
 Mobile Act #17 登壇資料のサンプルアプリケーションです。
 このプロジェクトは、`@Query`マクロを利用しないSwiftDataの使い方の実装例を示します。
 
+当日の発表スライドは[こちら](https://suffle8422.github.io/mobile-act-17-sample-code/)
+
 ## 目次
 
 - [背景と課題](#背景と課題)
